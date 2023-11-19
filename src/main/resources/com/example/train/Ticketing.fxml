@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?language javascript?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<AnchorPane xmlns:fx="http://javafx.com/fxml" fx:controller="com.example.train.Ticketing">
+    <children>
+        <Label text="Destination" layoutX="52.0" layoutY="32.0"/>
+        <ComboBox fx:id="destination" layoutX="120.0" layoutY="32.0"/>
+        <Label text="Time" layoutX="52.0" layoutY="64.0"/>
+        <ComboBox fx:id="time" layoutX="120.0" layoutY="64.0"/>
+        <Label text="Train" layoutX="52.0" layoutY="96.0"/>
+        <ComboBox fx:id="train" layoutX="120.0" layoutY="96.0"/>
+        <Button text="Book" layoutX="120.0" layoutY="128.0" onAction="onBookClick"/>
+    </children>
+</AnchorPane>
+

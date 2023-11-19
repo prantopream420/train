@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?language javascript?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<AnchorPane xmlns:fx="http://javafx.com/fxml" fx:controller="com.example.train.Register">
+    <children>
+        <Label text="Username" layoutX="52.0" layoutY="32.0"/>
+        <TextField fx:id="username" layoutX="120.0" layoutY="32.0"/>
+        <Label text="Password" layoutX="52.0" layoutY="64.0"/>
+        <PasswordField fx:id="password" layoutX="120.0" layoutY="64.0"/>
+        <Button text="Register" layoutX="120.0" layoutY="96.0" onAction="onRegistrationClick"/>
+        <Hyperlink text="Login" layoutX="139.0" layoutY="96.0" onAction="switchToLog"/>
+    </children>
+</AnchorPane>
+
+
+
